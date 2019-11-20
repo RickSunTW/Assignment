@@ -1,0 +1,238 @@
+[Assignment 1:Git & GitGub]
+1.
+2.
+●  git status 在本機端, 查看目前狀態, 
+●  git add 從本機將修改的東西傳至staging area
+●  git commit 將本機端staging area修改的東西, 傳送至local repo
+●  git log 可顯示本機端已經commit的所有修改內容
+●  git push [ Repo_name ] [ Branch_name ] 將本機[ Repo_name ] [ Branch_name ]修改的東西上傳至遠端
+●  git remote -v 顯示fetch, push遠端檔案庫的資訊
+●  git branch 列出目前有多少branch
+●  fork 參與別人的專案, 若無權限於專案頁面點選fork取得專案副本
+3.
+於terminal輸入 git remote add origin github網址, 輸入完成後後可用remote -vv檢查狀態 再輸入git push –set-upstream origin master
+
+[Basic]
+1.
+Let pi = 3.14159265
+
+2.
+let x : Int = 10
+let y : Int = 6
+let average = (x+y) / 2
+
+3.
+
+let x: Double = 10.0
+let y: Double = 0.0
+Let average1: = (x+y) / 3
+
+4.
+
+let c: Int = 10.0
+let d: Int = 0.0
+Let average2: = (c+d) / 3
+
+Average1 = 3.333333333
+Average2 = 3
+主要差異於資料的結構型態不一樣
+Int為整數
+Double可為小數點
+
+5.
+Var salary = 22000
+Salary += 28000
+
+6.
+5 == 5
+
+7.
+let a = 10
+let b = 3
+let remain = a % b
+
+8.
+let 為常數 不可變 var 為變數 可變
+
+9.
+
+10.
+
+11.
+Cannot assign value of type 'String' to type 'Int'
+
+[Collection]
+1.
+var myFriend: [String] = []
+
+2.
+myFriend = ["lan", "Bomi", "Kevin"]
+
+3.
+myFriend.append("Michel")
+
+4.
+myFriend.swapAt(0, 2)
+
+5.
+For name in myFriend {
+	print(name)
+}
+
+6.
+array 沒有index 5
+
+7.
+let firstmyFriend = myFriend.first
+
+8.
+let lastmyFriend = myFriend.last
+
+9.
+var myCountryNumber:[String:Int] = ["BB": 2]
+
+
+10.
+myCountryNumber.updateValue(1, forKey: "US")
+myCountryNumber.updateValue(44, forKey: "GB")
+myCountryNumber.updateValue(81, forKey: "JP")
+
+11. 
+myCountryNumber.updateValue(0, forKey: "GB")
+
+12.
+var emptyDictionary = [String: String]()
+
+13.
+myCountryNumber.removeValue(forKey: "BB")
+
+
+
+[Control Flow]
+
+1.
+let lottoNumbers = [10,  9  , 8 ,   7,  6  , 5 ]
+
+for lastthree in ((lottoNumbers.count-3)...(lottoNumbers.count-1)) {
+    print(lottoNumbers[lastthree])
+}
+
+2.
+for i in stride(from: 5, to: 11, by: 1) {
+    print(i)
+}
+
+for x in stride(from: 10, to: 4, by: -1) {
+    print(x)
+}
+
+for y in stride(from: 10, to: 5, by: -2) {
+    print(y)
+}
+
+3.
+var num = 5
+while num <= 10 {
+    print("\(num)")
+    num += 1
+}
+
+var num2 = 10
+while num2 >= 5 {
+    print("\(num2)")
+    num2 -= 1
+}
+
+var num3 = 10
+while num3 >= 6 {
+    print("\(num3)")
+    num3 -= 2
+}
+
+4.
+var number1 = 5
+repeat {
+    print(number1)
+    number1 += 1
+} while number1 <= 10
+
+var number2 = 10
+repeat {
+    print(number2)
+    number2 -= 1
+} while number2 >= 5
+
+var number3 = 10
+repeat {
+    print(number3)
+    number3 -= 2
+} while number3 >= 6
+
+5.
+while 先判斷條件後再進行計算， repeat-while 會先計算後再判斷條件是否超過．
+
+6.
+var isRaining = false
+if isRaining {
+    print("It’s raining, I don’t want to work today.")
+} else {
+    print("Although it’s sunny, I still don’t want to work today.")
+}
+
+7.
+var jobLevel = 3
+
+switch jobLevel {
+case 1:
+    print("Present Member")
+    break
+case 2:
+        print("Team Leader")
+    break
+case 3:
+    print("Manager")
+    break
+case 4:
+    print("Director")
+    break
+default:
+    print("We don't have this job")
+}
+
+[Function]
+1.
+func greet(person: String) {
+    print("Hello, \(person).")
+}
+greet (person: "Celeste" )
+
+2.
+func multiply(a: Int,b: Int = 10) -> Int{
+    let c = a*b
+    return c
+}
+var aa=multiply(a:2,b:2)
+var cc=multiply(a:2)
+
+3.
+The argument label is used when calling the function
+在function外的label用來呼叫function 稱為 argument label
+
+The parameter name is used in the implementation of the function. 
+By default, parameters use their parameter name as their argument label.
+
+在function中 所使用的 parameter name default也等於他的 argument label
+
+4.
+Function 型別由參數型別與回傳型別共同定義
+birthday為字串(String)
+Payment 為浮點數(Double)
+
+
+
+
+
+
+
+
+
