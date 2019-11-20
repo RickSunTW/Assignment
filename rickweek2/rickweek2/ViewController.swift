@@ -28,13 +28,21 @@ class ViewController: UIViewController {
         "The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.." ,
         ]
         let colors = [
-        UIColor(red: 245/255, green: 123/225, blue: 103, alpha: 1.0).cgColor,
-        UIColor(red: 70/255, green: 123/225, blue: 103, alpha: 1.0).cgColor,
-        UIColor(red: 215/255, green: 123/225, blue: 214, alpha: 1.0).cgColor,
-        UIColor(red: 16/255, green: 192/225, blue: 214, alpha: 1.0).cgColor,
-        UIColor(red: 149/255, green: 203/225, blue: 214, alpha: 1.0).cgColor,
-        UIColor(red: 149/255, green: 45/225, blue: 214, alpha: 1.0).cgColor,
-        UIColor(red: 128/255, green: 100/225, blue: 0, alpha: 1.0).cgColor,
+            UIColor(red: 0xf5/0xff, green: 0x7b/0xff, blue: 0x69, alpha: 1.0).cgColor,
+            UIColor(red: 0x46/0xff, green: 0x7b/0xff, blue: 0x69, alpha: 1.0).cgColor,
+            UIColor(red: 0xd7/0xff, green: 0x7b/0xff, blue: 0xd6, alpha: 1.0).cgColor,
+            UIColor(red: 0x10/0xff, green: 0xc0/0xff, blue: 0xd6, alpha: 1.0).cgColor,
+            UIColor(red: 0x95/0xff, green: 0xcb/0xff, blue: 0xd6, alpha: 1.0).cgColor,
+            UIColor(red: 0x95/0xff, green: 0x2d/0xff, blue: 0xd6, alpha: 1.0).cgColor,
+            UIColor(red: 0xda/0xff, green: 0x64/0xff, blue: 0x00, alpha: 1.0).cgColor,
+
+//        UIColor(red: 245/255, green: 123/225, blue: 103, alpha: 1.0).cgColor,
+//        UIColor(red: 70/255, green: 123/225, blue: 103, alpha: 1.0).cgColor,
+//        UIColor(red: 215/255, green: 123/225, blue: 214, alpha: 1.0).cgColor,
+//        UIColor(red: 16/255, green: 192/225, blue: 214, alpha: 1.0).cgColor,
+//        UIColor(red: 149/255, green: 203/225, blue: 214, alpha: 1.0).cgColor,
+//        UIColor(red: 149/255, green: 45/225, blue: 214, alpha: 1.0).cgColor,
+//        UIColor(red: 128/255, green: 100/225, blue: 0, alpha: 1.0).cgColor,
 
         ]
         let a = Int(arc4random_uniform(7))
