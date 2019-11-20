@@ -1,0 +1,96 @@
+[Assignment 1:Git & GitGub]
+1.
+2.
+●  git status 在本機端, 查看目前狀態, 
+●  git add 從本機將修改的東西傳至staging area
+●  git commit 將本機端staging area修改的東西, 傳送至local repo
+●  git log 可顯示本機端已經commit的所有修改內容
+●  git push [ Repo_name ] [ Branch_name ] 將本機[ Repo_name ] [ Branch_name ]修改的東西上傳至遠端
+●  git remote -v 顯示fetch, push遠端檔案庫的資訊
+●  git branch 列出目前有多少branch
+●  fork 參與別人的專案, 若無權限於專案頁面點選fork取得專案副本
+3.
+於terminal輸入 git remote add origin github網址, 輸入完成後後可用remote -vv檢查狀態 再輸入git push –set-upstream origin master
+
+[Basic]
+1.
+Let pi = 3.14159265
+
+2.
+let x : Int = 10
+let y : Int = 6
+let average = (x+y) / 2
+
+3.
+
+let x: Double = 10.0
+let y: Double = 0.0
+Let average1: = (x+y) / 3
+
+4.
+
+let c: Int = 10.0
+let d: Int = 0.0
+Let average2: = (c+d) / 3
+
+Average1 = 3.333333333
+Average2 = 3
+主要差異於資料的結構型態不一樣
+Int為整數
+Double可為小數點
+
+5.
+Var salary = 22000
+Salary += 28000
+
+6.
+5 == 5
+
+7.
+let a = 10
+let b = 3
+let remain = a % b
+
+8.
+let 為常數 不可變 var 為變數 可變
+
+9.
+
+10.
+
+11.
+Cannot assign value of type 'String' to type 'Int'
+
+[Collection]
+1.
+var myFriend: [String] = []
+
+2.
+myFriend = ["lan", "Bomi", "Kevin"]
+
+3.
+myFriend.append("Michel")
+
+4.
+myFriend.swapAt(0, 2)
+
+5.
+For name in myFriend {
+	print(name)
+}
+
+6.
+array 沒有index 5
+
+
+[Control Flow]
+
+[Function]
+
+
+
+
+
+
+
+
