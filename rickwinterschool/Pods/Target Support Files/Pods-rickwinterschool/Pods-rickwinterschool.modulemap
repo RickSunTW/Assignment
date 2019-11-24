@@ -1,0 +1,6 @@
+framework module Pods_rickwinterschool {
+  umbrella header "Pods-rickwinterschool-umbrella.h"
+
+  export *
+  module * { export * }
+}
