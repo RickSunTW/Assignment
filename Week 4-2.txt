@@ -1,0 +1,11 @@
+
+let checknumber = { (number:Int) -> (Bool) in
+    if (number % 2 == 0 ) {
+    return false
+    }else {
+    return true
+        }
+    }
+
+checknumber(3)
+checknumber(4)

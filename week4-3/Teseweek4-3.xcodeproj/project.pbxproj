@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		571AD9C2238BA7F80060C08C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD9C1238BA7F80060C08C /* AppDelegate.swift */; };
+		571AD9C4238BA7F80060C08C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD9C3238BA7F80060C08C /* SceneDelegate.swift */; };
+		571AD9C6238BA7F80060C08C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AD9C5238BA7F80060C08C /* ContentView.swift */; };
+		571AD9C8238BA7FA0060C08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571AD9C7238BA7FA0060C08C /* Assets.xcassets */; };
+		571AD9CB238BA7FA0060C08C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571AD9CA238BA7FA0060C08C /* Preview Assets.xcassets */; };
+		571AD9CE238BA7FA0060C08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 571AD9CC238BA7FA0060C08C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		571AD9BE238BA7F80060C08C /* Teseweek4-3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teseweek4-3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		571AD9C1238BA7F80060C08C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		571AD9C3238BA7F80060C08C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		571AD9C5238BA7F80060C08C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		571AD9C7238BA7FA0060C08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		571AD9CA238BA7FA0060C08C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		571AD9CD238BA7FA0060C08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		571AD9CF238BA7FA0060C08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		571AD9BB238BA7F80060C08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		571AD9B5238BA7F80060C08C = {
+			isa = PBXGroup;
+			children = (
+				571AD9C0238BA7F80060C08C /* Teseweek4-3 */,
+				571AD9BF238BA7F80060C08C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		571AD9BF238BA7F80060C08C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				571AD9BE238BA7F80060C08C /* Teseweek4-3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		571AD9C0238BA7F80060C08C /* Teseweek4-3 */ = {
+			isa = PBXGroup;
+			children = (
+				571AD9C1238BA7F80060C08C /* AppDelegate.swift */,
+				571AD9C3238BA7F80060C08C /* SceneDelegate.swift */,
+				571AD9C5238BA7F80060C08C /* ContentView.swift */,
+				571AD9C7238BA7FA0060C08C /* Assets.xcassets */,
+				571AD9CC238BA7FA0060C08C /* LaunchScreen.storyboard */,
+				571AD9CF238BA7FA0060C08C /* Info.plist */,
+				571AD9C9238BA7FA0060C08C /* Preview Content */,
+			);
+			path = "Teseweek4-3";
+			sourceTree = "<group>";
+		};
+		571AD9C9238BA7FA0060C08C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				571AD9CA238BA7FA0060C08C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		571AD9BD238BA7F80060C08C /* Teseweek4-3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571AD9D2238BA7FA0060C08C /* Build configuration list for PBXNativeTarget "Teseweek4-3" */;
+			buildPhases = (
+				571AD9BA238BA7F80060C08C /* Sources */,
+				571AD9BB238BA7F80060C08C /* Frameworks */,
+				571AD9BC238BA7F80060C08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Teseweek4-3";
+			productName = "Teseweek4-3";
+			productReference = 571AD9BE238BA7F80060C08C /* Teseweek4-3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		571AD9B6238BA7F80060C08C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = RickSun;
+				TargetAttributes = {
+					571AD9BD238BA7F80060C08C = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 571AD9B9238BA7F80060C08C /* Build configuration list for PBXProject "Teseweek4-3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 571AD9B5238BA7F80060C08C;
+			productRefGroup = 571AD9BF238BA7F80060C08C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				571AD9BD238BA7F80060C08C /* Teseweek4-3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		571AD9BC238BA7F80060C08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571AD9CE238BA7FA0060C08C /* LaunchScreen.storyboard in Resources */,
+				571AD9CB238BA7FA0060C08C /* Preview Assets.xcassets in Resources */,
+				571AD9C8238BA7FA0060C08C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		571AD9BA238BA7F80060C08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571AD9C2238BA7F80060C08C /* AppDelegate.swift in Sources */,
+				571AD9C4238BA7F80060C08C /* SceneDelegate.swift in Sources */,
+				571AD9C6238BA7F80060C08C /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		571AD9CC238BA7FA0060C08C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				571AD9CD238BA7FA0060C08C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		571AD9D0238BA7FA0060C08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		571AD9D1238BA7FA0060C08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		571AD9D3238BA7FA0060C08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Teseweek4-3/Preview Content\"";
+				DEVELOPMENT_TEAM = 23Z6JMBK32;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Teseweek4-3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RickSunworkTW.Teseweek4-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		571AD9D4238BA7FA0060C08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Teseweek4-3/Preview Content\"";
+				DEVELOPMENT_TEAM = 23Z6JMBK32;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Teseweek4-3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RickSunworkTW.Teseweek4-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		571AD9B9238BA7F80060C08C /* Build configuration list for PBXProject "Teseweek4-3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571AD9D0238BA7FA0060C08C /* Debug */,
+				571AD9D1238BA7FA0060C08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		571AD9D2238BA7FA0060C08C /* Build configuration list for PBXNativeTarget "Teseweek4-3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571AD9D3238BA7FA0060C08C /* Debug */,
+				571AD9D4238BA7FA0060C08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 571AD9B6238BA7F80060C08C /* Project object */;
+}
